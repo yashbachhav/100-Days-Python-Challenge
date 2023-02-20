@@ -1,0 +1,11 @@
+rint("Enter the String: ")
+text = input()
+
+vowels = ['(',')']
+newtext = ""
+textlen = len(text)
+
+for c in text: 
+if c in bracket:
+ text = text.replace(c, "")
+ print(text)
